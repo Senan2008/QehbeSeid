@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.foto{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto1{
+    height: 300px;
+}
+
+.foto2{
+    height: 400px;
+}
+
+.foto3{
+    height: 300px;
+}
+
+article{
+    margin-top: 15px;
+    font-size: 31px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.yazi{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.elaqe{
+    color: purple;
+}
+
+.dahaCox{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dahaBtn{
+    background-color:rgb(0, 255, 157);
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+}
+
+
+#second{
+    display: none;
+}
+
+.second{
+    display: flex;
+}
+
+.ss{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    animation: at 0.5s infinite alternate;
+}
+
+.twerk{
+    height: 350px;
+}
+
+
+
+.geriDon{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.geriBtn{
+    border-radius: 8px;
+    border: none;
+    background-color: tomato;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    font-family:fantasy ;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .ustYazi{
+        font-size: 24px;
+    }
+    .elaqe{
+        font-size: 24px;
+    }
+}
+
+@keyframes at{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.7);
+    }
+}
